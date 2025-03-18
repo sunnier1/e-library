@@ -1,0 +1,45 @@
+/* Subscribe Box Styles */
+.subscribe-box {
+    text-align: center;
+    margin: 50px auto;
+    width: 90%; /* Ubah lebar menjadi 90% */
+    max-width: 600px; /* Tetapkan max-width jika viewport lebih besar */
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.subscribe-icon img {
+    width: 200px; /* Lebih besar dari sebelumnya */
+    height: 200px; /* Lebih besar dari sebelumnya */
+    margin-bottom: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.subscribe-box p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.subscribe-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #521bab;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #3a0f6b;
+    transform: scale(1.1);
+}
+
+
